@@ -1,0 +1,66 @@
+nav.navbar-default {
+	background-color: #fff;
+	.navbar-toggle {
+		padding: 15px;
+		border: 3px solid $midnight-blue;
+		border-radius: 0;
+		@include transition(all, 0.15s, ease);
+		.icon-bar {
+			background-color: $midnight-blue;
+		}
+		&:hover, &:focus {
+			background-color: $midnight-blue;
+			.icon-bar {
+				background-color: #fff;
+			}	
+		}
+	}
+	.navbar-brand {
+		margin: 5px 0;
+		font-family: "Montserrat";
+		font-weight: 700;
+		color: $midnight-blue;
+		border: 3px solid $midnight-blue;
+		@include transition(all, 0.15s, ease);
+		&:hover {
+			color: #fff;
+			background-color: $midnight-blue;
+		}
+		@media (max-width: 767px) {
+			margin: 8px 0 8px 15px;
+		}
+	}
+	#main-navi {
+		> ul {
+			> li {
+				margin-top: 5px;
+				> a {
+					color: $midnight-blue;
+					@include transition(all, 0.15s, ease);
+					&:hover, &:focus {
+						@media (min-width: 767px) {
+							border-bottom: 3px solid $peter-river;
+						}
+						@media (max-width: 766px) {
+							background-color: $peter-river;
+							color: #fff;
+						}						
+					}					
+				}
+				&.dropdown.open {
+					.dropdown-menu {
+						li {
+							a {
+								&:hover, &:focus {
+									@media (max-width: 766px) {
+										text-decoration: underline
+									}
+								}								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

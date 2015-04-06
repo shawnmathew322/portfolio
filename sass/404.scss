@@ -1,0 +1,22 @@
+.page_not_found {
+	padding: 200px 0;
+	&__content {
+		padding: 100px 0;
+		border: 3px solid $midnight-blue;
+		&__text {
+			font-size: 1.5em;
+			@include font("Montserrat");			
+			text-align: center;
+			color: $nephritis;
+			a {
+				font-size: inherit;				
+				color: $peter-river;
+				@include transition(all, 0.15s, ease);
+				&:hover {
+					text-decoration: none;
+					border-bottom: 2px solid $peter-river;
+				}
+			}
+		}
+	}
+}

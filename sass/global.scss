@@ -1,0 +1,156 @@
+
+/************************
+
+Blue
+
+*************************/
+$midnight-blue: #2c3e50;
+$peter-river: #3498db;
+$belize-hole: #2980b9;
+
+/************************
+
+Grey/White
+
+*************************/
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+$asbestos: #7f8c8d;
+$grey-blue: #4a5666;  /* Content Color */
+
+/************************
+
+Orange/Red
+
+*************************/
+$pomegranate: #c0392b;
+$alizarin: #E74C3C;
+$pumpkin: #d35400;
+
+/************************
+
+Yellow
+
+*************************/
+$sunflower: #f1c40f;
+
+/************************
+
+Green
+
+*************************/
+$nephritis: #27ae60;
+$emerald: #2ecc71;
+$turqoise: #1abc9c;
+
+/************************
+
+Purple
+
+*************************/
+$wisteria: #8e44ad;
+
+
+/************************
+
+Section style 
+
+*************************/
+.section_title {
+	text-align: center;
+	margin: 0 0 35px 0;	
+}
+
+
+/************************
+
+Content Title style
+
+*************************/
+.title {
+	font-size: 1.5em;
+	font-family: "Montserrat";
+	font-weight: 700;
+	color: #000;
+}
+
+
+/*************************
+
+Bottom Lining 
+
+**************************/
+.btm-lining {
+	height: 15px;
+	background-color: $midnight-blue;
+}
+
+
+/**************************
+
+Keyframes - Animation
+
+***************************/
+@-webkit-keyframes chgColor {
+	0% {
+		color: #000;		
+	}
+	50% {
+		color: $sunflower;		
+	}
+	100% {
+		color: #000;
+		font-size: 1.5em;
+	}
+}
+@-moz-keyframes chgColor {
+	0% {
+		color: #000;		
+	}
+	50% {
+		color: $peter-river;		
+	}
+	100% {
+		color: #000;
+		font-size: 1.5em;
+	}
+}
+@-o-keyframes chgColor {
+	0% {
+		color: #000;		
+	}
+	50% {
+		color: $peter-river;		
+	}
+	100% {
+		color: #000;
+		font-size: 1.5em;
+	}
+}
+@keyframes chgColor {
+	0% {
+		color: #000;		
+	}
+	50% {
+		color: $peter-river;		
+	}
+	100% {
+		color: #000;		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

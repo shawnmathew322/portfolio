@@ -1,0 +1,112 @@
+.footer {
+	padding: 50px 0;	
+	&__sm-info {
+		@media (max-width: 768px) {
+			font-size: 1em;
+		}
+		&__email {
+			@include font("Montserrat");
+			font-weight: 400;			
+			color: $peter-river;
+			margin-bottom: 0;
+			@include transition(all, 0.15s, ease);
+			&:hover {
+				text-decoration: none;
+				color: $peter-river;
+				border-bottom: 2px solid $peter-river;
+			}
+			@media (min-width: 767px) and (max-width: 768px) {
+				font-size: 1em;
+			}
+		}
+		&__tel {
+			@include font("Montserrat");
+			font-weight: 400;
+			@media (min-width: 767px) and (max-width: 768px) {
+				font-size: 1em;
+			}
+		}
+		&__lkdin {
+			display: inline-block;
+		}
+		&__res {
+			display: inline-block;
+		}
+	}
+	&__contact {		
+		@media (max-width: 767px) {
+			margin-top: 25px;
+		}
+		&__title {
+			@media (min-width: 769px) {
+				padding-left: 15px;
+			}			
+			@include transition(all, 1s, ease);
+			&.rtnColor {				
+				-webkit-animation-duration: 3s;
+				-webkit-animation-name: chgColor;
+				-moz-animation-duration: 3s;
+				-moz-animation-name: chgColor;
+				-o-animation-duration: 3s;
+				-o-animation-name: chgColor;
+				animation-duration: 3s;
+				animation-name: chgColor;
+			}
+		}
+		&__field {			
+			@include font("Raleway");
+			font-weight: 400;
+			background-color: #eee;
+			border-color: #eee;
+			border-bottom: 2px solid $peter-river;
+			@include border-radius(0);
+			outline: none;
+			@include transition(all, 0.15s, ease);
+			&:focus {
+				border-color: #eee;
+				box-shadow: none;
+				background-color: #fff;
+				border-bottom: 2px solid $midnight-blue;
+			}
+		}
+		&__send {
+			@include font("Montserrat");
+			font-weight: 400;
+			@include border-radius(0);
+			color: $peter-river;
+			border: 2px solid $peter-river;
+			@include transition(all, 0.15s, ease);
+			&:hover {
+				border-color: $peter-river;
+				background-color: $peter-river;
+				color: #fff;
+			}
+		}
+		.screen-reader-response {
+			display: none;
+		}
+		form {
+			.form-group {
+				@media (max-width: 768px) {
+					padding-left: 0;
+				}
+			}			
+			.wpcf7-response-output {
+				padding-left: 15px;
+				padding-right: 15px;
+				@include font("Montserrat");
+				color: $nephritis;
+			}
+			.wpcf7-mail-sent-ok {
+				clear: both;
+				border-color: $nephritis;
+			}
+			.wpcf7-validation-errors,
+			.wpcf7-not-valid-tip {
+				color: $pomegranate;
+				@include font("Montserrat");
+			}
+		}
+	}	
+}
+

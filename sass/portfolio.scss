@@ -1,0 +1,112 @@
+/* Used on Portfolio & Archive Pages */
+
+.portfolio {
+	&__back-btn {
+		display: inline-block;
+		margin-bottom: 15px;
+		font-size: 14px;
+		color: $nephritis;
+		background-color: #fff;
+		padding: 6px 12px;
+		border: 2px solid $nephritis;
+		@include transition(all, 0.15s, ease);
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+			background-color: $nephritis;
+		}
+	}
+	&__item {
+		padding: 25px 0;
+		border-bottom: 1px solid $silver;
+		&-meta {
+			&__img {
+				margin-bottom: 15px;
+				@media (max-width: 992px) {
+					margin: 0 auto 15px auto;
+				}
+			}
+			&__svcs {
+				span {
+					color: $pomegranate;
+					@include font("Montserrat");
+					font-size: 0.85em;
+					font-weight: bold;
+					@media (max-width: 768px) {
+						display: block;
+					}
+				}
+				a {
+					display: inline-block;
+					color: $midnight-blue;
+					font-size: 0.75em;
+					margin-bottom: 5px;
+					padding: 3px 6px;
+					border: 2px solid $midnight-blue;					
+					@include transition(all, 0.15s, ease);
+					&:hover {
+						text-decoration: none;
+						background-color: $midnight-blue;
+						color: #fff;
+					}
+					@media (max-width: 700px) {
+						font-size: 12px
+					}
+				}
+			}
+		}
+		&-content {
+			&__title {				
+				color: $midnight-blue;
+				margin-top: 0;
+			}
+			&__link {
+				display: inline-block;
+				margin-bottom: 5px;
+				color: $grey-blue;
+				padding: 3px 6px;
+				border: 2px solid $grey-blue;
+				@include transition(all, 0.15s, ease);
+					&:hover {
+						text-decoration: none;
+						background-color: $grey-blue;
+						color: #fff;
+					}
+			}
+			&__descr {
+				color: $grey-blue;
+				a {
+					color: $peter-river;
+					&:hover {
+						text-decoration: none;
+						border-bottom: 2px solid $peter-river;
+					}
+				}
+			}
+		}
+	}
+	&__display-btns {
+		text-align: center;
+		margin: 25px 0 50px 0;
+		.btns {
+			width: 50%;
+			@include font("Montserrat");
+			margin: 0 auto;			
+			padding: 12px 24px;
+			color: $peter-river;
+			border: 5px solid $peter-river;
+			cursor: pointer;
+			@include transition(all, 0.15s, ease);
+			&:hover {
+				background-color: $peter-river;
+				color: #fff;
+			}
+			@media (max-width: 400px) {
+				width: 75%;	
+			}
+		}		
+		.less {
+			display: none;
+		}
+	}	
+}

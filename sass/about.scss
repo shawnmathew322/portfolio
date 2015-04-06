@@ -1,0 +1,53 @@
+.about {
+	&__img {
+		img {
+			border: 3px solid $midnight-blue;
+			margin-bottom: 15px;					
+		}
+		@media (max-width: 992px) {
+			text-align: center;
+		}
+		@media (max-width: 768px) {
+			padding: 0;
+		}		
+	}	
+	&__main {
+		@media (max-width: 768px) {
+			padding: 0;
+		}
+		&__content {
+			margin-bottom: 30px;
+			&:last-child {
+				font-size: 0.85em;
+			}
+			a {
+				color: $peter-river;
+				&:hover {
+					text-decoration: none;
+					border-bottom: 2px solid $peter-river;
+				}
+			}
+			&--certs {
+				margin-bottom: 30px;
+				a {					
+					display: inline-block;
+					margin-right: 5px;
+					&:hover {
+						text-decoration: none;
+						border-bottom: none;
+					}
+					@media (max-width: 671px) {
+						margin-bottom: 10px;;
+					}
+				}
+			}
+			.to_quotes {
+				color: $peter-river;
+				&:hover {
+					text-decoration: none;
+					border-bottom: 2px solid $peter-river;
+				}
+			}	
+		}
+	}
+}
