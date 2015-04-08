@@ -4,7 +4,6 @@
 Template Name: About
 */
 
-/***Add Comment for github **/
 get_header();
 
 $the_query = new WP_Query( 'page_id=71' );
