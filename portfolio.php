@@ -19,7 +19,7 @@ get_header();
 <header class="jumbotron header header--portfolio">
 	<div class="container">
 		<h1 class="header__headline">Portfolio</h1>		
-		<p class="header__content">View my past work below where I've helped clients build websites using HTML, CSS, Javascript and some PHP, usually when working with Wordpress.
+		<p class="header__content">View my past work below where I've helped clients build websites using HTML, CSS, Javascript and PHP, including custom Wordpress and Squarespace themes.
 		I've also helped clients setup or audit Google Analytics so they can pinpoint opportunities for improvement by measuring how people use their website.</p>
 		<p class="header__content">You can filter projects by selecting on one of the service options next to the services tag.</p>
 	</div>

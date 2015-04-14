@@ -13,15 +13,15 @@ $the_query = new WP_Query( 'page_id=11' );
 <header class="jumbotron header header--home">
 	<div class="container">
     	<h1 class="header__headline header__headline--home">Build, measure and improve your website.</h1>
-        <p class="header__subhead">Google Analytics Consultant + Front End Developer</p>        
+        <p class="header__subhead">Front End Developer + Google Analytics Consultant</p>        
         <p class="header__content header__content--home">
-        I help companies improve the online experience of their website by implementing Google Analytics to accurately measure user and website behavior.
-        I also write HTML, CSS, and Javascript to turn designs into fully functional websites.
+        I write HTML, CSS, and Javascript to build the user interface of client applications and websites.  I also help companies improve the online experience of 
+        their website by implementing Google Analytics to accurately measure user and website behavior.        
         </p>
 		<div class="header__content header__content--home-svcs">
 			<p class="header__content header__content--home-svcs__title">Contact me if you need:</p>
 	        <ul>        	        	
-		        <li><i class="fa fa-desktop"></i> a web design to be developed into a website</li>
+		        <li><i class="fa fa-desktop"></i> a web design to be developed into a responsive website</li>
 		        <li><i class="fa fa-bar-chart"></i> help with setting up Google Analytics to measure what matters</li>
 		        <li><i class="fa fa-line-chart"></i> help with using Google Analytics data to find out how to improve your website</li>
 		        <div style="clear:both;"></div>
