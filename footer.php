@@ -20,8 +20,8 @@
 		<div class="btm-lining"></div>
 
 		<?php wp_footer(); ?>		
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>		
+		<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>		
 		<script src="http://shawnmathew.co/wp-content/themes/portfolio/js/owl.carousel.min.js"></script>
-		<script src="http://shawnmathew.co/wp-content/themes/portfolio/js/main.js"></script>			
+		<script async src="http://shawnmathew.co/wp-content/themes/portfolio/js/main.js"></script>			
 	</body>
 </html>

@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="I use Google Analytics to accurately measure user and website behavior and write HTML, CSS, and Javascript to turn designs into fully functional websites.">    
     <title>Google Analytics Consultant and Front End Developer</title>
-    <link rel="shortcut icon" href="http://faviconist.com/icons/44ebcc5b2833a032eb2f40a447ef157e/favicon.ico" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,300">
+    <link rel="shortcut icon" href="http://faviconist.com/icons/44ebcc5b2833a032eb2f40a447ef157e/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,300">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">    
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
-     <?php wp_head(); ?>
-        
+     <?php wp_head(); ?>        
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,7 +31,6 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-T24NR8');</script>
     <!-- End Google Tag Manager -->
-
     <nav class="nav navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -60,12 +57,4 @@
           </ul>
         </div>
       </div>
-    </nav>
-    
-
-
-
-
-
-
-
+    </nav>    

@@ -49,11 +49,19 @@ $the_query = new WP_Query( 'page_id=11' );
 				foreach($my_svsc as $key => $value){					
 					if( $key[0] == '_' )
 	        			continue;
-	        		echo '<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services__svc services__svc--ga">' . 
+	        		if( $key[0] == 'G'){
+	        			echo '<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services__svc">' . 
 							'<i class="fa fa-bar-chart fa-lg services__svc__ico"></i>' . 
 							'<a class="title services__svc__title" href="/google-analytics-consulting">' . $key . '</a>' .
 							'<p class="services__svc__content">' . $value[0] . '</p>' .											
 						 '</div>';
+	        		}elseif ($key[0] == 'F') {
+	        			echo '<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services__svc">' . 
+							'<i class="fa fa-code fa-lg services__svc__ico"></i>' . 
+							'<a class="title services__svc__title" href="/portfolio">' . $key . '</a>' .
+							'<p class="services__svc__content">' . $value[0] . '</p>' .											
+						 '</div>';
+	        		}	        		
 				}
 			?>
 		</div>		
