@@ -17,12 +17,11 @@
 				</div>
 			</div>			
 		</footer>		
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>		
+		<div class="btm-lining"></div>
+
+		<?php wp_footer(); ?>		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>		
 		<script src="http://shawnmathew.co/wp-content/themes/portfolio/js/owl.carousel.min.js"></script>
-		<script src="http://shawnmathew.co/wp-content/themes/portfolio/js/main.js"></script>
-		<?php wp_footer(); ?>
-		<div class="btm-lining"></div>
+		<script src="http://shawnmathew.co/wp-content/themes/portfolio/js/main.js"></script>			
 	</body>
 </html>

@@ -7159,9 +7159,15 @@ nav.navbar-default #main-navi > ul > li > a {
   }
 }
 .header .container .header__content--home-svcs ul {
+  overflow: auto;
   font-weight: 400;
   font-size: 21px;
   list-style: none;
+}
+@media (max-width: 992px) {
+  .header .container .header__content--home-svcs ul {
+    overflow: hidden;
+  }
 }
 @media (max-width: 768px) {
   .header .container .header__content--home-svcs ul {

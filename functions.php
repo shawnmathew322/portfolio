@@ -1,5 +1,20 @@
 <?php 
 
+//Load jQuery from CDN in footer
+function my_init()   
+{  
+    if (!is_admin())   
+    {  
+        wp_deregister_script('jquery');  
+  
+        wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js', FALSE, '1.11.2', TRUE);  
+  
+        wp_enqueue_script('jquery');  
+    }  
+}  
+add_action('init', 'my_init');  
+
+
 function add_custom_types_to_tax( $query ) {
 	if( is_category() || is_tag() && empty( $query->query_vars['suppress_filters'] ) ) {
 

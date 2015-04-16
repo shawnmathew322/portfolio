@@ -23,8 +23,7 @@ $the_query = new WP_Query( 'page_id=11' );
 	        <ul>        	        	
 		        <li><i class="fa fa-desktop"></i> a web design to be developed into a responsive website</li>
 		        <li><i class="fa fa-bar-chart"></i> help with setting up Google Analytics to measure what matters</li>
-		        <li><i class="fa fa-line-chart"></i> help with using Google Analytics data to find out how to improve your website</li>
-		        <div style="clear:both;"></div>
+		        <li><i class="fa fa-line-chart"></i> help with using Google Analytics data to find out how to improve your website</li>		        
 	        </ul>
         </div>	
         <p class="header__content header__content--home">I'm available for freelance/contract opportunities as well as for long term employment with the right organization.</p>
