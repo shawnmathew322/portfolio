@@ -8,7 +8,7 @@
 						<a id="sm_email" href="mailto:shawn.mathew@gmail.com?subject=Inquiry" target="_blank" class="footer__sm-info__email">shawn.mathew@gmail.com</a>
 						<p class="footer__sm-info__tel">718-473-4359</p>
 						<a id="view_linkedin" class="footer__sm-info__lkdin" href="http://www.linkedin.com/in/shawnmathew322" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
-						<a id="view_resume" class="footer__sm-info__res" href="http://shawnmathew.co/wp-content/uploads/2015/03/Shawn-Mathew-Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Resume</a>
+						<a id="view_resume" class="footer__sm-info__res" href="http://shawnmathew.co/wp-content/uploads/2015/04/Shawn-Mathew-Resume-Website.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Resume</a>
 					</div>
 					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 footer__contact">
 						<p class="footer__contact__title title">LET'S WORK TOGETHER!</p>
