@@ -6,8 +6,6 @@ Author URI: http: //www.shawnmathew.co
 Version: 1.0
 !*/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6705,9 +6703,6 @@ button.close {
 /* Transitions */
 /* Border-Radius */
 /* Fonts */
-/**********
-Fonts
-***********/
 /**********
 Elements
 ***********/

@@ -8,6 +8,8 @@
     <title>Google Analytics Consultant and Front End Developer</title>
     <link rel="shortcut icon" href="http://faviconist.com/icons/44ebcc5b2833a032eb2f40a447ef157e/favicon.ico" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,300">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
      <?php wp_head(); ?>
         
